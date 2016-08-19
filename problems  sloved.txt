@@ -1,36 +1,37 @@
-1 Ç°¶Ë¿ò¼Ü£¬²ÉÓÃµ×²¿Ñ¡Ïî¿¨¡ªwebviewÄ£Ê½£¬ÖĞ¼ä¼ÓÔÚwebview
-2 ###ÓÃajaxÊµÏÖÓëºóÌ¨½øĞĞ½»»¥ ÏòºóÌ¨´«ËÍÊı¾İÒÔ¼°ÏÂÅ¶ÄÇ¸öºóÌì»ñÈ¡Êı¾İ£¬ÊµÏÖµÇÂ¼
-3 ĞÂ½¨³ö²îÈÎÎñ ²ÉÓÃÑ¡ÔñÆ÷picker£¬Ìá½»µ½mysqlÊı¾İ¿âÓÃ.innerText
-4 ´ÓºóÌ¨»ñÈ¡²éÑ¯µ½µÄÊı¾İ£¬Ä¬ÈÏµÄÊÇtext¸ñÊ½£¬µ¼Èëjson°ü£¬½«text×ª»¯³Éjson¸ñÊ½
-5 Ç°Ì¨»ñÈ¡µ½json¸ñÊ½ºó ½øĞĞ±éÀú htmlÖĞÖ»Ğ´<ul>²»Ğ´<li>,jsÖĞÓ¹var li = document.createElement("li")+li.classNmae=""+li.innerHtml=""+list.append(li)
-6 ÊµÏÖ½«Êı¾İ¿âµÄbuss_id×Ö¶ÎÉèÖÃ´ÓÄ³Ò»¹Ì¶¨Öµ¿ªÊ¼×ÔÔö ÉèÖÃ×ÔÔöµÄÊ±ºòÖ÷¼üµÄÀàĞÍÒªÑ¡³ÉintÀàĞÍ²ÅĞĞ
-7 ÊµÏÖÊı¾İ¿â²éÑ¯°´ÕÕbuss_id ½µĞò½øĞĞÏÔÊ¾ ALTER TABLE informationguiderecord AUTO_INCREMENT 1000
-8 ½â¾öÁĞ±íÒ³ÃæË¢ĞÂÊı¾İÖØ¸´³öÏÖÎÊÌâlist.innerHtml=""
-9 ½â¾ö½«ÎÄ¼şÒÆµ½examplesÎÄ¼ş¼ĞÏÂ²»ÏÖÊµcssºÍjsµÄÎÊÌâ£¬½«ÒıÈëÎÄ¼şÇ°Ãæ¼ÓÉÏ../¼´¿É
-10  ½â¾öÄ£ºıËÑË÷ÎÊÌâ ÓÃ¡®%String%¡¯ ÎªÁË·ÀÖ¹javaÖĞµÄ£¿²»ÄÜ±»µ¥ÒıºÅ°üÀ¨ Èç¹û°üÀ¨µÄ»° »á±¨´íParameter index out of range (1 > number of parameters, which is 0).
-    Õâ¸öÊ±ºòĞèÒª½«%%¼ÓÔÚpstmtÖĞ²ÅĞĞ http://my.oschina.net/u/1379006/blog/181547
-11 ½â¾öµã»÷ÁĞ±í½øĞĞ±à¼­µÄÎÊÌâ£¬http://ask.dcloud.net.cn/article/657 ÔÚeachÀïÃæ¶¨ÒåÃ¿Ò»ĞĞµÄid¼´¿É£¬½ø¶ø½â¾öĞŞ¸ÄºÍÉ¾³ıµÄÎÊÌâ
-12  myecpliseÏÔÊ¾Failed to initialize end point associated with ProtocolHandler ["http-apr-80µÄÊ±ºò
-    ½â¾ö·½°¸£ºhttp://yedward.net/?id=295
-13 Èç¹ûËÑË÷µÄÊ±ºò£¬Êı¾İ¿âÀïÃæµÄÊ±¼ätime×Ö¶Î¶¼Ã»¶¨Òå£¬ÄÇÃ´sqlÓï¾äÈç¹û¼ÙÈçËÑË÷time×Ö¶Î£¬ÄÇÃ´¼´Ê¹ÆäËû×Ö¶ÎÖĞÓĞÕâ¸öÖµÒ²ËÑ²»³öÀ´
-14 ½â¾öÉÏÀ­¼ÓÔØÎÊÌâ£¬ÄÑµãÔÚ¼ÓÔØÍêÊı¾İÖ®ºóÔõÑù³öÏÖÃ»ÓĞ¸ü¶àÊı¾İ´ÎÄÚÈİ
-15 ½â¾öÏÂÀ­Ë¢ĞÂÎÊÌâ£¬¿¼ÂÇ³õ´ÎµÇÂ½appÊ±ºòÒÑ¾­½øĞĞË¢ĞÂ£¬¶ø±¾app²»ÊÇÏòÍ·ÌõÄÇÑù»áÔÚ¶ÌÊ±¼äÄÚĞèÒªÄÇÃ´¶àµÄÊı¾İ£¬ËùÒÔÏÂÀ­Ë¢ĞÂ²ÉÓÃµÄ·½·¨ÊÇ´ÓĞÂ¼ÓÔØ±¾Ò³¼´ÊµÏÖÉÏÀ­¼ÓÔØµÄ³õ´Î¼ÓÔÚ£¬Èç¹ûÖ®Ç°ÓĞºÜ¶àÊı¾İÔòÇå³şÖ»±£ÁôµÚÒ»´Î¼ÓÔØµÄÊı¾İ¡£»òÕßÖ±½ÓÈ¥µôÏÂÀ­Ë¢ĞÂ¹¦ÄÜ£¬ÔÚËÑË÷µÄÊ±ºò²»±ØÒª±£Áô´Ë¹¦ÄÜ
-16 ajaxÖĞËùÓĞÇëÇó¶¼ÓÃpost£¬Òª²»È»»á³öÏÖÂÒÂëÎÊÌâ
-17 Èô³öÏÖmui is not defined Ôòµ±Ç°Ò³ÃæĞèÒªÒıÈë mui.js  mui is not definedÊÇjsÒıÇæ±¨µÄ´íÎó£¬²»ÊÇÎÒÃÇ±¨´íµÄ¡£
-		Í¨³£Óöµ½** is not defined»ù±¾ÉÏ¶¼ÊÇÒòÎª¸Ã¶ÔÏó²»´æÔÚ£¬ÖÁÓÚÎªºÎ²»´æÔÚ£¬ÓĞºÜ¶àÇé¿ö£¬±ÈÈçÄãµÄÇé¿ö¾ÍÊÇÒıÓÃjsÃ»ÒıÓÃµ½£¬»¹ÓĞ¾ÍÊÇÒıÓÃÁËÃ»ÓĞ¶¨ÒåµÄ¶ÔÏó
-18 ĞèÒª½â¾öËÑË÷¿òµã½øÈ¥Ö®ºó×Ô¶¯»ñÈ¡½¹µã http://ask.dcloud.net.cn/article/513
-19 ÔÚHbuilderÖĞÈç¹ûÏëÔÚ¿ØÖÆÌ¨ÖĞÏÔÊ¾Ò»Ğ©ĞÅÏ¢£¬ÏñmyecpliseÖĞµÄsystem.out.println()¶ÔÓ¦µÄÊÇ console.log()
-20 Ìí¼ÓÍ¼Æ¬Ê±ºò£¬Èç¹ûÃ»ÓĞÄÇ¸ö¼ÓºÅ£¬ĞèÒªÔÚÏÈÒıÓÃÄÇ¸ö¼ÓºÅÍ¼Æ¬£¬È»ºóÔÚfeedback-pageÏÂÃæ.feedback .image-itemÏÂÃæ°ÑÂ·¾¶»»³ÉÕıÈ·µÄÂ·¾¶
-21 ÉÏ´«Í¼Æ¬µÄÊ±ºò£¬ºóÌ¨ÓÃµÄÊÇimport sun.misc.BASE64Decoder;  import sun.misc.BASE64Encoder; ³öÏÖ´íÎó½â¾ö·½°¸http://blog.csdn.net/jbxiaozi/article/details/7351768
-22 ÉÏ´«Í¼Æ¬Ç°¶Ë http://ask.dcloud.net.cn/question/2089
-23 base64×ªÍ¼Æ¬´æµ½±¾µØ£¬±¾µØÍ¼Æ¬×ªbase64£¬ºó¶Ëhttp://blog.csdn.net/hfhwfw/article/details/5544408
+1 å‰ç«¯æ¡†æ¶ï¼Œé‡‡ç”¨åº•éƒ¨é€‰é¡¹å¡â€”webviewæ¨¡å¼ï¼Œä¸­é—´åŠ åœ¨webview
+2 ###ç”¨ajaxå®ç°ä¸åå°è¿›è¡Œäº¤äº’ å‘åå°ä¼ é€æ•°æ®ä»¥åŠä¸‹å“¦é‚£ä¸ªåå¤©è·å–æ•°æ®ï¼Œå®ç°ç™»å½•
+3 æ–°å»ºå‡ºå·®ä»»åŠ¡ é‡‡ç”¨é€‰æ‹©å™¨pickerï¼Œæäº¤åˆ°mysqlæ•°æ®åº“ç”¨.innerText
+4 ä»åå°è·å–æŸ¥è¯¢åˆ°çš„æ•°æ®ï¼Œé»˜è®¤çš„æ˜¯textæ ¼å¼ï¼Œå¯¼å…¥jsonåŒ…ï¼Œå°†textè½¬åŒ–æˆjsonæ ¼å¼
+5 å‰å°è·å–åˆ°jsonæ ¼å¼å è¿›è¡Œéå† htmlä¸­åªå†™<ul>ä¸å†™<li>,jsä¸­åº¸var li = document.createElement("li")+li.classNmae=""+li.innerHtml=""+list.append(li)
+6 å®ç°å°†æ•°æ®åº“çš„buss_idå­—æ®µè®¾ç½®ä»æŸä¸€å›ºå®šå€¼å¼€å§‹è‡ªå¢ è®¾ç½®è‡ªå¢çš„æ—¶å€™ä¸»é”®çš„ç±»å‹è¦é€‰æˆintç±»å‹æ‰è¡Œ
+7 å®ç°æ•°æ®åº“æŸ¥è¯¢æŒ‰ç…§buss_id é™åºè¿›è¡Œæ˜¾ç¤º ALTER TABLE informationguiderecord AUTO_INCREMENT 1000
+8 è§£å†³åˆ—è¡¨é¡µé¢åˆ·æ–°æ•°æ®é‡å¤å‡ºç°é—®é¢˜list.innerHtml=""
+9 è§£å†³å°†æ–‡ä»¶ç§»åˆ°examplesæ–‡ä»¶å¤¹ä¸‹ä¸ç°å®csså’Œjsçš„é—®é¢˜ï¼Œå°†å¼•å…¥æ–‡ä»¶å‰é¢åŠ ä¸Š../å³å¯
+10  è§£å†³æ¨¡ç³Šæœç´¢é—®é¢˜ ç”¨â€˜%String%â€™ ä¸ºäº†é˜²æ­¢javaä¸­çš„ï¼Ÿä¸èƒ½è¢«å•å¼•å·åŒ…æ‹¬ å¦‚æœåŒ…æ‹¬çš„è¯ ä¼šæŠ¥é”™Parameter index out of range (1 > number of parameters, which is 0).
+    è¿™ä¸ªæ—¶å€™éœ€è¦å°†%%åŠ åœ¨pstmtä¸­æ‰è¡Œ http://my.oschina.net/u/1379006/blog/181547
+11 è§£å†³ç‚¹å‡»åˆ—è¡¨è¿›è¡Œç¼–è¾‘çš„é—®é¢˜ï¼Œhttp://ask.dcloud.net.cn/article/657 åœ¨eaché‡Œé¢å®šä¹‰æ¯ä¸€è¡Œçš„idå³å¯ï¼Œè¿›è€Œè§£å†³ä¿®æ”¹å’Œåˆ é™¤çš„é—®é¢˜
+12  myecpliseæ˜¾ç¤ºFailed to initialize end point associated with ProtocolHandler ["http-apr-80çš„æ—¶å€™
+    è§£å†³æ–¹æ¡ˆï¼šhttp://yedward.net/?id=295
+13 å¦‚æœæœç´¢çš„æ—¶å€™ï¼Œæ•°æ®åº“é‡Œé¢çš„æ—¶é—´timeå­—æ®µéƒ½æ²¡å®šä¹‰ï¼Œé‚£ä¹ˆsqlè¯­å¥å¦‚æœå‡å¦‚æœç´¢timeå­—æ®µï¼Œé‚£ä¹ˆå³ä½¿å…¶ä»–å­—æ®µä¸­æœ‰è¿™ä¸ªå€¼ä¹Ÿæœä¸å‡ºæ¥
+14 è§£å†³ä¸Šæ‹‰åŠ è½½é—®é¢˜ï¼Œéš¾ç‚¹åœ¨åŠ è½½å®Œæ•°æ®ä¹‹åæ€æ ·å‡ºç°æ²¡æœ‰æ›´å¤šæ•°æ®æ¬¡å†…å®¹
+15 è§£å†³ä¸‹æ‹‰åˆ·æ–°é—®é¢˜ï¼Œè€ƒè™‘åˆæ¬¡ç™»é™†appæ—¶å€™å·²ç»è¿›è¡Œåˆ·æ–°ï¼Œè€Œæœ¬appä¸æ˜¯å‘å¤´æ¡é‚£æ ·ä¼šåœ¨çŸ­æ—¶é—´å†…éœ€è¦é‚£ä¹ˆå¤šçš„æ•°æ®ï¼Œæ‰€ä»¥ä¸‹æ‹‰åˆ·æ–°é‡‡ç”¨çš„æ–¹æ³•æ˜¯ä»æ–°åŠ è½½æœ¬é¡µå³å®ç°ä¸Šæ‹‰åŠ è½½çš„åˆæ¬¡åŠ åœ¨ï¼Œå¦‚æœä¹‹å‰æœ‰å¾ˆå¤šæ•°æ®åˆ™æ¸…æ¥šåªä¿ç•™ç¬¬ä¸€æ¬¡åŠ è½½çš„æ•°æ®ã€‚æˆ–è€…ç›´æ¥å»æ‰ä¸‹æ‹‰åˆ·æ–°åŠŸèƒ½ï¼Œåœ¨æœç´¢çš„æ—¶å€™ä¸å¿…è¦ä¿ç•™æ­¤åŠŸèƒ½
+16 ajaxä¸­æ‰€æœ‰è¯·æ±‚éƒ½ç”¨postï¼Œè¦ä¸ç„¶ä¼šå‡ºç°ä¹±ç é—®é¢˜
+17 è‹¥å‡ºç°mui is not defined åˆ™å½“å‰é¡µé¢éœ€è¦å¼•å…¥ mui.js  mui is not definedæ˜¯jså¼•æ“æŠ¥çš„é”™è¯¯ï¼Œä¸æ˜¯æˆ‘ä»¬æŠ¥é”™çš„ã€‚
+		é€šå¸¸é‡åˆ°** is not definedåŸºæœ¬ä¸Šéƒ½æ˜¯å› ä¸ºè¯¥å¯¹è±¡ä¸å­˜åœ¨ï¼Œè‡³äºä¸ºä½•ä¸å­˜åœ¨ï¼Œæœ‰å¾ˆå¤šæƒ…å†µï¼Œæ¯”å¦‚ä½ çš„æƒ…å†µå°±æ˜¯å¼•ç”¨jsæ²¡å¼•ç”¨åˆ°ï¼Œè¿˜æœ‰å°±æ˜¯å¼•ç”¨äº†æ²¡æœ‰å®šä¹‰çš„å¯¹è±¡
+18 éœ€è¦è§£å†³æœç´¢æ¡†ç‚¹è¿›å»ä¹‹åè‡ªåŠ¨è·å–ç„¦ç‚¹ http://ask.dcloud.net.cn/article/513
+19 åœ¨Hbuilderä¸­å¦‚æœæƒ³åœ¨æ§åˆ¶å°ä¸­æ˜¾ç¤ºä¸€äº›ä¿¡æ¯ï¼Œåƒmyecpliseä¸­çš„system.out.println()å¯¹åº”çš„æ˜¯ console.log()
+20 æ·»åŠ å›¾ç‰‡æ—¶å€™ï¼Œå¦‚æœæ²¡æœ‰é‚£ä¸ªåŠ å·ï¼Œéœ€è¦åœ¨å…ˆå¼•ç”¨é‚£ä¸ªåŠ å·å›¾ç‰‡ï¼Œç„¶ååœ¨feedback-pageä¸‹é¢.feedback .image-itemä¸‹é¢æŠŠè·¯å¾„æ¢æˆæ­£ç¡®çš„è·¯å¾„
+21 ä¸Šä¼ å›¾ç‰‡çš„æ—¶å€™ï¼Œåå°ç”¨çš„æ˜¯import sun.misc.BASE64Decoder;  import sun.misc.BASE64Encoder; å‡ºç°é”™è¯¯è§£å†³æ–¹æ¡ˆhttp://blog.csdn.net/jbxiaozi/article/details/7351768
+22 ä¸Šä¼ å›¾ç‰‡å‰ç«¯ http://ask.dcloud.net.cn/question/2089
+23 base64è½¬å›¾ç‰‡å­˜åˆ°æœ¬åœ°ï¼Œæœ¬åœ°å›¾ç‰‡è½¬base64ï¼Œåç«¯http://blog.csdn.net/hfhwfw/article/details/5544408
        http://www.cnblogs.com/mofish/archive/2010/11/26/1889126.html
-24 ÎÄ¼şÉÏ´«ºó¶Ëhttp://ask.dcloud.net.cn/question/722
-25 Ê¹ÓÃUploaderÉÏ´«ÎÄ¼ş,Java×öºó¶ËµÄ´¦Àí·½·¨  http://ask.dcloud.net.cn/article/545
-26 Ç°¶ËÓÃbitmapÊµÏÖÍ¼Æ¬ÉÏÉÏ´« androidºÍios¶¼¼æÈİ http://ask.dcloud.net.cn/article/782  ÓÃh5µÄ»­²¼Ã²ËÆÖ»ÓĞandroidµÄ¿ÉÒÔ
-27 muiÉÏ´«Í¼Æ¬£¨¸üºÃµÄÀı×Ó£¬¿ÉÒÔ¸Ä½ø£©http://blog.sina.com.cn/s/blog_958e179e0102vv0k.html    http://www.bicky.me/blog/archive/uploading-files-with-ajax-based-on-base64-text-encoding/
-28 £¨function($,document){
-        }£©(mui,document);¼Ç×¡ºóÃæÒ»¶¨Òª¼ÓÉÏ£¨mui£¬document£©
-29 ÖÆ×÷ÒÆ¶¯app×ÊÔ´Éı¼¶°ü http://ask.dcloud.net.cn/article/182
-30 ½«Í¼Æ¬·ÅÔÚwebappÏÂÃæ£¬Æô¶¯·şÎñÖ®ºóÖ±½Ó¿ÉÒÔ·ÃÎÊ ±¾µØµÄ»°ÓÃlocalhost ·şÎñÆ÷¶ËÓÃipµØÖ·  localhost£º8080/image/1.png ²»¹âÍ¼Æ¬ÊÇ·ñÊÇ·ÅÔÚÎÄ¼ş¼ĞÀïÃæ»òÕßÊÇ·ÅÔÚÃû×Ö²»½ĞimageµÄÎÄ¼ş¼ĞÏÂÃæ Ö»ÒªÊÇ·ÃÎÊÍ¼Æ¬ ¾Í±ØĞë¼ÓÉÏimage/ºóÃæ¸úÉÏÍ¼Æ¬Ãû³Æ¼´¿É£¬¶øÇÒÍ¼Æ¬Ãû×Öºó×º±ØĞëÕıÈ·
+24 æ–‡ä»¶ä¸Šä¼ åç«¯http://ask.dcloud.net.cn/question/722
+25 ä½¿ç”¨Uploaderä¸Šä¼ æ–‡ä»¶,Javaåšåç«¯çš„å¤„ç†æ–¹æ³•  http://ask.dcloud.net.cn/article/545
+26 å‰ç«¯ç”¨bitmapå®ç°å›¾ç‰‡ä¸Šä¸Šä¼  androidå’Œioséƒ½å…¼å®¹ http://ask.dcloud.net.cn/article/782  ç”¨h5çš„ç”»å¸ƒè²Œä¼¼åªæœ‰androidçš„å¯ä»¥
+27 muiä¸Šä¼ å›¾ç‰‡ï¼ˆæ›´å¥½çš„ä¾‹å­ï¼Œå¯ä»¥æ”¹è¿›ï¼‰http://blog.sina.com.cn/s/blog_958e179e0102vv0k.html    http://www.bicky.me/blog/archive/uploading-files-with-ajax-based-on-base64-text-encoding/
+28 ï¼ˆfunction($,document){
+        }ï¼‰(mui,document);è®°ä½åé¢ä¸€å®šè¦åŠ ä¸Šï¼ˆmuiï¼Œdocumentï¼‰
+29 åˆ¶ä½œç§»åŠ¨appèµ„æºå‡çº§åŒ… http://ask.dcloud.net.cn/article/182
+30 å°†å›¾ç‰‡æ”¾åœ¨webappä¸‹é¢ï¼Œå¯åŠ¨æœåŠ¡ä¹‹åç›´æ¥å¯ä»¥è®¿é—® æœ¬åœ°çš„è¯ç”¨localhost æœåŠ¡å™¨ç«¯ç”¨ipåœ°å€  localhostï¼š8080/image/1.png ä¸å…‰å›¾ç‰‡æ˜¯å¦æ˜¯æ”¾åœ¨æ–‡ä»¶å¤¹é‡Œé¢æˆ–è€…æ˜¯æ”¾åœ¨åå­—ä¸å«imageçš„æ–‡ä»¶å¤¹ä¸‹é¢ åªè¦æ˜¯è®¿é—®å›¾ç‰‡ å°±å¿…é¡»åŠ ä¸Šimage/åé¢è·Ÿä¸Šå›¾ç‰‡åç§°å³å¯ï¼Œè€Œä¸”å›¾ç‰‡åå­—åç¼€å¿…é¡»æ­£ç¡®  
+31 ã€git æ— æ³•pullé¡¹ç›® æ˜¾ç¤ºCould not read from remote repository.Please make sure you have the correct access rights.and the repository exists. ï¼Œè§£å†³sshé—®é¢˜http://blog.sina.com.cn/s/blog_6e572cd60101qls0.html    http://www.forwhat.cn/post-144.html
  
