@@ -36,4 +36,4 @@
 31 、git 无法pull项目 显示Could not read from remote repository.Please make sure you have the correct access rights.and the repository exists. ，解决ssh问题http://blog.sina.com.cn/s/blog_6e572cd60101qls0.html    http://www.forwhat.cn/post-144.html
 32、配置jdk+tomcat+myecplise http://jingyan.baidu.com/article/870c6fc33e62bcb03fe4be90.html   其中配置jdk的时候的path变量要把java_home放在最前面
 33、用canvas处理图片时显示sun.misc.BASE64Encoder;有错误解决方案  http://blog.csdn.net/jbxiaozi/article/details/7351768
- 
+34、nativejs打开文件 http://ask.dcloud.net.cn/article/809
