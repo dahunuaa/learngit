@@ -1,0 +1,41 @@
+1 前端框架，采用底部选项卡—webview模式，中间加在webview
+2 ###用ajax实现与后台进行交互 向后台传送数据以及下哦那个后天获取数据，实现登录
+3 新建出差任务 采用选择器picker，提交到mysql数据库用.innerText
+4 从后台获取查询到的数据，默认的是text格式，导入json包，将text转化成json格式
+5 前台获取到json格式后 进行遍历 html中只写<ul>不写<li>,js中庸var li = document.createElement("li")+li.classNmae=""+li.innerHtml=""+list.append(li)
+6 实现将数据库的buss_id字段设置从某一固定值开始自增 设置自增的时候主键的类型要选成int类型才行
+7 实现数据库查询按照buss_id 降序进行显示 ALTER TABLE informationguiderecord AUTO_INCREMENT 1000
+8 解决列表页面刷新数据重复出现问题list.innerHtml=""
+9 解决将文件移到examples文件夹下不现实css和js的问题，将引入文件前面加上../即可
+10  解决模糊搜索问题 用‘%String%’ 为了防止java中的？不能被单引号包括 如果包括的话 会报错Parameter index out of range (1 > number of parameters, which is 0).
+    这个时候需要将%%加在pstmt中才行 http://my.oschina.net/u/1379006/blog/181547
+11 解决点击列表进行编辑的问题，http://ask.dcloud.net.cn/article/657 在each里面定义每一行的id即可，进而解决修改和删除的问题
+12  myecplise显示Failed to initialize end point associated with ProtocolHandler ["http-apr-80的时候
+    解决方案：http://yedward.net/?id=295
+13 如果搜索的时候，数据库里面的时间time字段都没定义，那么sql语句如果假如搜索time字段，那么即使其他字段中有这个值也搜不出来
+14 解决上拉加载问题，难点在加载完数据之后怎样出现没有更多数据次内容
+15 解决下拉刷新问题，考虑初次登陆app时候已经进行刷新，而本app不是向头条那样会在短时间内需要那么多的数据，所以下拉刷新采用的方法是从新加载本页即实现上拉加载的初次加在，如果之前有很多数据则清楚只保留第一次加载的数据。或者直接去掉下拉刷新功能，在搜索的时候不必要保留此功能
+16 ajax中所有请求都用post，要不然会出现乱码问题
+17 若出现mui is not defined 则当前页面需要引入 mui.js  mui is not defined是js引擎报的错误，不是我们报错的。
+		通常遇到** is not defined基本上都是因为该对象不存在，至于为何不存在，有很多情况，比如你的情况就是引用js没引用到，还有就是引用了没有定义的对象
+18 需要解决搜索框点进去之后自动获取焦点 http://ask.dcloud.net.cn/article/513
+19 在Hbuilder中如果想在控制台中显示一些信息，像myecplise中的system.out.println()对应的是 console.log()
+20 添加图片时候，如果没有那个加号，需要在先引用那个加号图片，然后在feedback-page下面.feedback .image-item下面把路径换成正确的路径
+21 上传图片的时候，后台用的是import sun.misc.BASE64Decoder;  import sun.misc.BASE64Encoder; 出现错误解决方案http://blog.csdn.net/jbxiaozi/article/details/7351768
+22 上传图片前端 http://ask.dcloud.net.cn/question/2089
+23 base64转图片存到本地，本地图片转base64，后端http://blog.csdn.net/hfhwfw/article/details/5544408
+       http://www.cnblogs.com/mofish/archive/2010/11/26/1889126.html
+24 文件上传后端http://ask.dcloud.net.cn/question/722
+25 使用Uploader上传文件,Java做后端的处理方法  http://ask.dcloud.net.cn/article/545
+26 前端用bitmap实现图片上上传 android和ios都兼容 http://ask.dcloud.net.cn/article/782  用h5的画布貌似只有android的可以
+27 mui上传图片（更好的例子，可以改进）http://blog.sina.com.cn/s/blog_958e179e0102vv0k.html    http://www.bicky.me/blog/archive/uploading-files-with-ajax-based-on-base64-text-encoding/
+28 （function($,document){
+        }）(mui,document);记住后面一定要加上（mui，document）
+29 制作移动app资源升级包 http://ask.dcloud.net.cn/article/182
+30 将图片放在webapp下面，启动服务之后直接可以访问 本地的话用localhost 服务器端用ip地址  localhost：8080/image/1.png 不光图片是否是放在文件夹里面或者是放在名字不叫image的文件夹下面 只要是访问图片 就必须加上image/后面跟上图片名称即可，而且图片名字后缀必须正确  
+31 、git 无法pull项目 显示Could not read from remote repository.Please make sure you have the correct access rights.and the repository exists. ，解决ssh问题http://blog.sina.com.cn/s/blog_6e572cd60101qls0.html    http://www.forwhat.cn/post-144.html
+32、配置jdk+tomcat+myecplise http://jingyan.baidu.com/article/870c6fc33e62bcb03fe4be90.html   其中配置jdk的时候的path变量要把java_home放在最前面
+33、用canvas处理图片时显示sun.misc.BASE64Encoder;有错误解决方案  http://blog.csdn.net/jbxiaozi/article/details/7351768
+34、nativejs打开文件 http://ask.dcloud.net.cn/article/809
+35、tornado http://demo.pythoner.com/itt2zh/index.html
+36、mongodb http://www.runoob.com/mongodb/mongodb-tutorial.html
