@@ -39,3 +39,7 @@
 34、nativejs打开文件 http://ask.dcloud.net.cn/article/809
 35、tornado http://demo.pythoner.com/itt2zh/index.html
 36、mongodb http://www.runoob.com/mongodb/mongodb-tutorial.html
+37、阿里云服务器备案账号是qq邮箱 密码是0920YAOCHANG 
+    登录服务器主机用户名/密码：administrator/19920920YAOchang
+    管理端密码：199209
+    centos登录名/密码：root/19920920YAOchang
