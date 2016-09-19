@@ -43,3 +43,4 @@
     登录服务器主机用户名/密码：administrator/19920920YAOchang
     管理端密码：199209
     centos登录名/密码：root/19920920YAOchang
+38、项目打包成war包的时候放到服务器上，必须将后来添加的jar包放进去，可以放到lib下面打包成war包 或者手动添加到tomcat的lib下面也行，这次上传war包的时候没有吧fileupload包和另外一个包添加进去，导致编译的时候就出错！
