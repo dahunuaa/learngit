@@ -50,3 +50,4 @@
 42.detail_inforgather页面中按钮用onclick事件则不能写在function（$,doc）下面，解决方法是直接将其去掉
 43.由于myecplise的版本不同有时候可能从git拉下来代码编译的时候会报错，折腾了好长时间，可以在myecplise中新建一个项目，然后把之前的项目里面的内容都复制到新的项目里面去，切记要在myecplise中复制，然后千万不要忘记把web.xml文件也复制进去
 44.登录成功后需要有欢迎字样，需要从数据库中查到登录id对应的user_name，action.java中定义map对象，类似python中的dict，然后转换成json，为了防止乱码需要对resp设置成utf-8码，前端dataType需要变成json，然后用each进行遍历，用value.key拿值。但页面间传值和预加载不能公用！
+45.ajax返回来的data如果直接打印是都是object。用JSON.stringify(data)就可以了
